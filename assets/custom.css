@@ -1,0 +1,295 @@
+body {
+    /*background: radial-gradient(circle, rgba(8,3,87,1), rgba(12,12,146,1), rgba(5,90,175,1), rgba(0,212,255,1));*/
+    background: radial-gradient(circle, rgba(205,204,209,1), rgba(161,161,173,1), rgba(99,103,107,1), rgba(53,55,55,1));
+    background-size: 400% 400%;
+    animation: effect 15s ease infinite;
+    font-family: Courier, monospace;
+}
+
+@keyframes effect {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+a {
+  color: white;
+}
+
+.main-window {
+    position: relative;
+    height: 1600px;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    height: 1%;
+    text-align: center;
+    color: #002D62;
+    letter-spacing: 20px;
+}
+
+.intro-text {
+    position: absolute;
+    top: 6%;
+    left: 2%;
+    height: 20%;
+    width: 33%;
+    font-size: 14px;
+    padding: 5px;
+    color: #00308F;
+    text-align: justify;
+}
+
+.output-info {
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    height: 25%;
+    width: 33%;
+    font-size: 13px;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 10px #888888;
+    box-sizing: border-box;
+}
+
+.labelProfile {
+    position: absolute;
+    top: 11%;
+    left: 41%;
+    height: 1%;
+    width: 20%;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.h3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.labelFunction {
+    position: absolute;
+    top: 11%;
+    right: 5%;
+    height: 1%;
+    width: 20%;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.menuProfile {
+    position: absolute;
+    top: 14%;
+    left: 41%;
+    height: 2%;
+    width: 20%;
+    border: 1px solid grey;
+    box-shadow: 5px 10px 8px 3px #888888;
+}
+
+.menuFunction {
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    height: 2%;
+    width: 20%;
+    border: 1px solid grey;
+    box-shadow: 5px 10px 8px 3px #888888;
+}
+
+.framework-graph {
+    position: absolute;
+    top: 18%;
+    right: 2%;
+    height: 35%;
+    width: 58%;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.gauge {
+    position: relative;
+    top: 57%;
+    left: 2%;
+    height: 15%;
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 3px #888888;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.gauge-graph {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.labelGauge {
+    position: absolute;
+    top: 57%;
+    left: 2%;
+    width: 40%;
+    text-align: center;
+    color: #002D62;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.complete {
+    position: absolute;
+    top: 73%;
+    left: 2%;
+    height: 25%;
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 3px #888888;
+}
+
+.complete-graph {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.labelComplete {
+    position: absolute;
+    top: 73%;
+    left: 2%;
+    width: 40%;
+    text-align: right;
+    color: #002D62;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.labelComplete2 {
+    position: absolute;
+    top: 74%;
+    left: 2%;
+    width: 40%;
+    text-align: right;
+    color: #002D62;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.slider {
+    position: absolute;
+    top: 57%;
+    right: 2%;
+    height: 2%;
+    width: 54%;
+}
+
+.gantt {
+    position: absolute;
+    top: 60%;
+    right: 2%;
+    height: 38%;
+    width: 54%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 3px #888888;
+}
+
+.gantt-graph {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.labelGantt {
+    position: absolute;
+    top: 60%;
+    right: 3%;
+    width: 54%;
+    text-align: right;
+    color: #002D62;
+    font-size: 13px;
+}
+
+.final {
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    height: 28%;
+    width: 96%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 3px #888888;
+}
+
+.labelTable {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #002D62;
+    font-size: 14px;
+}
+
+.radioItem {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    color: #002D62;
+    font-size: 14px;
+}
+
+.table-graph {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.credits1 {
+    margin: 0;
+    position: absolute;
+    top: 87%;
+    right: 2%;
+    font-size: 12px;
+    color: #00308F;
+}
+
+.credits2 {
+    margin: 0;
+    position: absolute;
+    top: 89%;
+    right: 2%;
+    font-size: 12px;
+    color: #00308F;
+}
+
+.credits3 {
+    margin: 0;
+    position: absolute;
+    top: 93%;
+    right: 2%;
+    font-size: 12px;
+    color: #00308F;
+}
