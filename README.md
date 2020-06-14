@@ -12,7 +12,7 @@ Stabiliti quindi i tempi ed i costi previsti/auspicati di implementazione delle 
 Da qui l'idea della dashboard di monitoraggio interattiva e costantemente aggiornabile.  
 
 # Il codice
-Nel repository è presente l'app (CyberFraM.py), accompagnata dal file excel del framework (precedentemente elaborato con vari processi casuali) e dalla cartella «assets» nella quale è presente il file .css per lo stile dell'app.  
+Nel repository è presente l'app (*CyberFraM.py*), accompagnata dal file excel del framework (precedentemente elaborato con vari processi casuali) e dalla cartella «assets» nella quale è presente il file .css per lo stile dell'app.  
 L'applicazione finale è ospitata su Heroku al link [https://cyberfram.herokuapp.com/](https://cyberfram.herokuapp.com/).  
 
 # Autore
