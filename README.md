@@ -2,7 +2,7 @@
 Dashboard realizzata in python come ipotesi di studio per l'applicazione del CyberSecurity Framework nazionale ad una piccola impresa
 
 # Descrizione
-CyberFraM sta per Cybersecurity Framework Monitoring, ed è una dashboard ([disponibile a questo link](https://cyberfram.herokuapp.com/)) che ho relizzato in python usando plotly e dash.  
+CyberFraM sta per Cybersecurity Framework Monitoring, ed è una dashboard ([disponibile a questo link](https://cyberfram.herokuapp.com/)) che ho realizzato in python usando plotly e dash.  
 La dashboard nasce dall'ipotesi di applicazione - ad una piccola organizzazione/impresa - del [Framework Nazionale per la CyberSecurity e la Data Protection](https://www.cybersecurityframework.it/) realizzato dal CIS Sapienza e dal Cini.  
 Il framework, ispirato da quello del [NIST](https://www.nist.gov/cyberframework) e suddiviso in funzioni, categorie e sottocategorie, consiste sostanzialmente in un insieme di risultati e *guidelines* da implementare per gestire e mitigare correttamente il rischio cyber.  
 Inoltre tale framework è opportunamente integrato dai controlli necessari per adempiere al GDPR in materia di protezione dei dati personali.  
